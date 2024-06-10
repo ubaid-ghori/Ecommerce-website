@@ -4,6 +4,8 @@ import HeroSection from "@/Components/Ui/HeroSection";
 import WeeklySpeical from "@/Components/Ui/WeeklySpeical";
 import Bestforyou from "@/Components/Ui/Bestforyou";
 import WeeklyFilter from "@/Components/Ui/WeeklyFilter";
+import Timer from "@/Components/Ui/Timer";
+import Blog from "@/Components/Ui/Blog";
 
 const HomePage = () => {
   return (
@@ -13,6 +15,8 @@ const HomePage = () => {
      <WeeklySpeical />
      <Bestforyou />
      <WeeklyFilter />
+     <Timer />
+     <Blog />
     </div>
   );
 };

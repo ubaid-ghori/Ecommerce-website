@@ -32,3 +32,16 @@ html{
     background-color: #96AE00;
 }
 
+
+.card {
+    overflow: hidden; /* Ensure the zoomed image doesn't overflow the card */
+  }
+  
+  .card-image {
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+  }
+  
+  .card:hover .card-image {
+    transform: scale(1.1); /* Zoom in the image on hover */
+  }
+  
