@@ -10,7 +10,7 @@ function Reminder() {
   });
 
   useEffect(() => {
-    const newDeal = "1 july 2024";
+    const newDeal = "1 August 2024";
     const countdownInterval = setInterval(() => {
       const newYearsDate = new Date(newDeal);
       const currentDate = new Date();

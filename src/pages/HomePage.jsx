@@ -6,6 +6,7 @@ import Bestforyou from "@/Components/Ui/Bestforyou";
 import WeeklyFilter from "@/Components/Ui/WeeklyFilter";
 import Timer from "@/Components/Ui/Timer";
 import Blog from "@/Components/Ui/Blog";
+import Footer from "@/Components/Ui/Footer";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
      <WeeklyFilter />
      <Timer />
      <Blog />
+     <Footer />
     </div>
   );
 };
